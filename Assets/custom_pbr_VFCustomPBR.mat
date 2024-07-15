@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: custom_pbr_VFCustomPBR
+  m_Shader: {fileID: 13, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AddTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 5e103d4eed2e9ed43a70bfba58c36e22, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Illum:
+        m_Texture: {fileID: 2800000, guid: 7036e35e3f3a5d148aa574f5e47380ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d0579f5c9a54c2c478cbd27e5d396c38, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBTex:
+        m_Texture: {fileID: 2800000, guid: 7036e35e3f3a5d148aa574f5e47380ce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO: 1
+    - _AddStrength: 1
+    - _AddWidth: 0.1
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _Contrast: 1.25
+    - _Cube: 0
+    - _CubeMapInt: 0
+    - _Cull: 2
+    - _DstBlend: 10
+    - _Emission: 1
+    - _FnelAllPower: 0
+    - _FnelAlphaPower: 4
+    - _FnelColorPower: 0.5
+    - _FnelPower: 2.5
+    - _GlossStrength: 0.5
+    - _Hurt: 0
+    - _HurtAlphaPower: 1
+    - _HurtPower: 1
+    - _HurtRim: 0
+    - _HurtShader: 1
+    - _MainAlpha: 1
+    - _MetallicStrength: 1
+    - _MoveSpeed: 0.05
+    - _Rim: 2.6
+    - _SaoGuang: 0
+    - _Saturation: 1
+    - _SelfIllum: 0
+    - _Shininess: 0.813
+    - _SrcBlend: 3
+    - _ZWrite: 1
+    m_Colors:
+    - _AddColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FnelColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _FnelInColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _HurtColor: {r: 1, g: 0, b: 0, a: 1}
+    - _HurtRimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_BuildTextureStacks: []

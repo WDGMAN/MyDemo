@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="RightClickMenu" style="position: absolute; flex-grow: 1; width: 150px; top: 0; left: 0; justify-content: flex-end; align-items: stretch; border-left-color: rgb(255, 158, 0); border-right-color: rgb(255, 158, 0); border-top-color: rgb(255, 158, 0); border-bottom-color: rgb(255, 158, 0);">
+        <ui:Label text="RightMenuClick" display-tooltip-when-elided="true" name="RightMenuClickLabel" style="align-items: center; justify-content: center; -unity-text-align: upper-center; background-color: rgba(26, 26, 26, 0.52); color: rgb(197, 255, 0); -unity-font-style: bold; font-size: 15px; -unity-background-image-tint-color: rgb(161, 0, 0);" />
+        <ui:Button text="Add" display-tooltip-when-elided="true" name="RightClickMenuAdd" style="-unity-font-style: bold; background-color: rgb(255, 240, 57); color: rgb(0, 103, 233); font-size: 14px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; height: 30px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8514625736d4c8c94ddeac7129b1828, type: 3}
+  m_Name: Weapon1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  WeaponName: "\u957F\u79BB"
+  OffsetVector3: {x: -0.1, y: 0.027, z: 0.019}
+  OffsetRotation: {x: 52.52, y: -76.707, z: -148.237}
+  Weapon: {fileID: 916851190144707668, guid: 5e8ff555078474c43bdbb9a30abfd68f, type: 3}

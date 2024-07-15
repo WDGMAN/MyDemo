@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Label text="AudioClip" display-tooltip-when-elided="true" name="AudioTrackItem" style="height: 100%; width: 124px; -unity-text-align: middle-center; font-size: 15px; -unity-background-image-tint-color: rgba(255, 255, 255, 0.5); background-color: rgba(80, 212, 224, 0.49); white-space: normal; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-direction: row; position: absolute; border-left-width: 0; border-right-width: 1px; border-top-width: 0; border-bottom-width: 0; border-left-color: rgb(43, 49, 94); border-right-color: rgb(43, 49, 94); border-top-color: rgb(43, 49, 94); border-bottom-color: rgb(43, 49, 94);">
+        <ui:VisualElement name="OverLine" style="flex-shrink: 0; height: 100%; width: 2px; background-color: rgb(137, 233, 21); position: absolute; left: 0; display: none;" />
+        <ui:VisualElement name="Main" style="flex-shrink: 0; width: 100%; height: 100%; position: absolute; display: flex;" />
+    </ui:Label>
+</ui:UXML>

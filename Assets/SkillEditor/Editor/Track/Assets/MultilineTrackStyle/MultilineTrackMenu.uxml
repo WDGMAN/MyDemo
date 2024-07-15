@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="MultilineTrackMenu" style="-unity-text-align: middle-center; justify-content: flex-start; align-items: auto; background-color: rgb(70, 70, 67); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(106, 135, 97); border-right-color: rgb(106, 135, 97); border-top-color: rgb(106, 135, 97); border-bottom-color: rgb(106, 135, 97); flex-direction: column; white-space: normal; flex-wrap: nowrap;">
+        <ui:VisualElement name="Top" style="height: 30px; -unity-text-align: middle-center; justify-content: center; align-items: center; border-bottom-color: rgb(0, 165, 255); border-bottom-width: 1px; width: 100%; flex-direction: row; flex-wrap: wrap;">
+            <ui:Label text="声音轨道" display-tooltip-when-elided="true" name="Title" style="flex-direction: column-reverse; flex-wrap: wrap; white-space: normal; font-size: 12px; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;); -unity-font-style: bold; -unity-text-align: middle-center; align-items: center; justify-content: center;" />
+            <ui:Button text="+" display-tooltip-when-elided="true" name="AddButton" style="position: absolute; right: 0; left: auto; width: 20px; height: 100%; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="TrackMenuList" style="width: 100%; height: auto; align-items: flex-start; justify-content: flex-start; flex-wrap: nowrap; flex-direction: column;" />
+    </ui:VisualElement>
+</ui:UXML>
